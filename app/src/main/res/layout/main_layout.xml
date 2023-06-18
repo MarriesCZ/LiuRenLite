@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/gua_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:paddingTop="24dp"
+        android:ems="1"
+        android:fontFamily="@font/hongleixingshu"
+        android:gravity="center"
+        android:paddingBottom="20dp"
+        android:text="速喜"
+        android:textSize="100sp" />
+
+    <TextView
+        android:id="@+id/time_yin_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@id/gua_text"
+        android:alpha="0"
+        android:ems="1"
+        android:fontFamily="@font/hongleixingshu"
+        android:gravity="center"
+        android:text="四月初一酉时"
+        android:textFontWeight="400"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/day_and_hour_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="28sp"
+        android:fontFamily="@font/hongleixingshu"
+        android:gravity="center"
+        android:alpha="0"
+        android:text="空亡加大安，事事不周全\n婚姻从和好，失物反复间"
+        android:layout_alignParentBottom="true"/>
+
+    <TextView
+        android:id="@+id/month_day_hour_gua_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/hongleixingshu"
+        android:gravity="center"
+        android:textFontWeight="900"
+        android:alpha="0"
+        android:paddingBottom="20dp"
+        android:text="赤口 流连 小吉"/>
+
+    <TextView
+        android:id="@+id/duan_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="28sp"
+        android:fontFamily="@font/hongleixingshu"
+        android:gravity="center"
+        android:alpha="0"
+        android:text="空亡事不祥，阴人多乖张\n求财无利益，行人有灾秧\n失物寻不见，官事有刑伤\n病人逢暗鬼，禳解保安康"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>
