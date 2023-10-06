@@ -76,7 +76,7 @@ class MainActivity : AppCompatActivity() {
         window.setBackgroundDrawable(ColorDrawable(themeColor.background.toArgb()))
     }
 
-    private fun upSlidAnimator(isDayAndHourEmpty : Boolean) {
+    private fun upSlidAnimator(isDayAndHourEmpty: Boolean) {
         val lengthX = mScreenWidth - mGuaTextX - mGuaText.width - 2 * mTimeYin.width
         ValueAnimator.ofFloat(0f, 1.0f).apply {
             duration = 600
@@ -143,7 +143,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    private fun downSlidAnimator(isDayAndHourEmpty : Boolean) {
+    private fun downSlidAnimator(isDayAndHourEmpty: Boolean) {
         val lengthX = mScreenWidth - mGuaTextX - mGuaText.width - 2 * mTimeYin.width
         ValueAnimator.ofFloat(1.0f, 0f).apply {
             duration = 600
